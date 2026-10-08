@@ -79,9 +79,27 @@ Early versions compared every signal and failed to reach consensus
  "guaranteed_returns": true, "urgency_pressure": true, "anonymous_team": true}}
 ```
 
+## Verified on Testnet Bradbury
+
+The same contract was run on Testnet Bradbury with real validators and reached consensus
+([deployment](https://explorer-bradbury.genlayer.com/address/0xC965cF1A47eB081477c62945bFf70e764dCcD9F2),
+[check transaction](https://explorer-bradbury.genlayer.com/tx/0xd469aae339f98f510520a674cb49095ab949ffda9df4dce85acfb2c6eb0bb67b)).
+
+`check("https://uniswap.org", "")`:
+```json
+{"page_chars": 513, "risk_level": "UNKNOWN",
+ "signals": {"team_identified": "unknown", "audit_present": "no",
+ "source_verified": "unknown", "active_development": "unknown",
+ "guaranteed_returns": false, "urgency_pressure": false, "anonymous_team": false}}
+```
+
+Note: validators produced a slightly different signal set than on Studio
+(`audit_present`: `no` vs `unknown`). The risk level matched, which is exactly the
+case the custom validator function is designed to accept.
+
 ## Limitations
 
 - Signals come from page text only. JavaScript-rendered pages may yield little text;
   pass a docs or GitHub URL as `extra_url`.
 - Not financial advice and not a replacement for an audit.
-- Tested on GenLayer Studio only.
+- Tested on GenLayer Studio and Testnet Bradbury.
