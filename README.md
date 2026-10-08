@@ -3,7 +3,7 @@
 An Intelligent Contract on GenLayer that screens crypto projects for scam signals
 and records an auditable, consensus-backed risk report on-chain.
 
-Deployed on GenLayer Studio: `0x67f93cb4a1cbFea6c4Bea6552b4caD55B336ef12`
+Deployed on GenLayer Studio: `0xC965cF1A47eB081477c62945bFf70e764dCcD9F2`
 
 ## Why GenLayer
 
