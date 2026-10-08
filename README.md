@@ -3,8 +3,9 @@
 An Intelligent Contract on GenLayer that screens crypto projects for scam signals
 and records an auditable, consensus-backed risk report on-chain.
 
-Deployed on GenLayer Studio: `0xC965cF1A47eB081477c62945bFf70e764dCcD9F2`
-
+   Deployed on Testnet Bradbury: `0xC965cF1A47eB081477c62945bFf70e764dCcD9F2`
+   Explorer: https://explorer-bradbury.genlayer.com/address/0xC965cF1A47eB081477c62945bFf70e764dCcD9F2
+   
 ## Why GenLayer
 
 Deciding whether a project looks like a rug pull depends on reading unstructured
